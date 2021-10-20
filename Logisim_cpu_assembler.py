@@ -89,8 +89,8 @@ file.close()
 
 
 
-print(line_address)
-print(labels)
-print(lines)
-print(line_codes)
-print(final_code_str)
+# print(line_address)
+# print(labels)
+# print(lines)
+# print(line_codes)
+# print(final_code_str)
