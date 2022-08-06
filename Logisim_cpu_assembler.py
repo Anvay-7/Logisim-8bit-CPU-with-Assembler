@@ -4,7 +4,7 @@ opcodes = {'AND': '0', 'OR': '1', 'ADD': '2', 'SUB': '3', 'LW': '4', 'SW': '5', 
 lines = []
 labels = {}
 line_codes = []
-file = open("D:\\verilog codes\code_asm.txt", "r+")
+file = open("D:\\verilog codes\code_asm.txt", "r+") # Change the path accordingly
 
 line_address = {}
 line_size = {}
@@ -83,7 +83,7 @@ for line_no,size in line_size.items():
             final_code_str+=line_codes[j]+"\n"
         j+=1
 
-file= open("D:\Documents\Logisim_project_files\\assembled_code.img","w+")
+file = open("D:\Documents\Logisim_project_files\\assembled_code.img","w+")
 file.write(final_code_str)
 file.close()
 
